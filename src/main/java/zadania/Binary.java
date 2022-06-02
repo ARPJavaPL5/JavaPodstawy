@@ -47,4 +47,16 @@ public class Binary {
 
         return result;
     }
+
+    // [1, 2, 3, 4, 5]
+    // tab.length -- ilość elementów w tablicy
+    // tab[0] - pierwszy element tablicy
+    // tab[tab.length - 1] - ostatni element tablicy
+    // [5, 4, 3, 2, 1]
+
+    private void printTable(int[] tab) {
+        for (int val : tab) {
+            System.out.println(val);
+        }
+    }
 }
