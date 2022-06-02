@@ -9,5 +9,8 @@ public class ArrayProgram {
         int[] reverse = ArrayUtils.reverse(tab);
 
         System.out.println(Arrays.toString(reverse));
+
+        int[] sumTable = ArrayUtils.addTables(tab, reverse);
+        System.out.println(Arrays.toString(sumTable));
     }
 }
