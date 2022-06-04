@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/bankaccount/AccountNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/bankaccount/AccountTransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/bankaccount/MobileBankProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/bankaccount/NegativeTransferAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalHungerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalTravelException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/CalculatorProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/CalculatorProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fauna/AnimalProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fauna/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fauna/Lion.java" afterDir="false" />
-    </list>
+    <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
