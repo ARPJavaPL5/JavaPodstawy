@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/time/TimeProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/regex/RegexProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.TimeProgram">
+  <component name="RunManager" selected="Application.RegexProgram">
     <configuration name="ArrayProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zadania.ArrayProgram" />
       <module name="repo" />
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TabliczkaMnozenia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zadania.TabliczkaMnozenia" />
+    <configuration name="RegexProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="regex.RegexProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zadania.*" />
+          <option name="PATTERN" value="regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegexProgram" />
         <item itemvalue="Application.TimeProgram" />
         <item itemvalue="Application.MathFunctionsProgram" />
         <item itemvalue="Application.ArrayProgram" />
         <item itemvalue="Application.Binary" />
-        <item itemvalue="Application.TabliczkaMnozenia" />
       </list>
     </recent_temporary>
   </component>
