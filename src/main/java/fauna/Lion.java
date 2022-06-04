@@ -13,6 +13,7 @@ public class Lion {
                 territoryX, territoryY);
     }
 
+    // HungerException
     public void makeNoise() {
         if (hunger > 8) {
             System.out.println("Jestem głodny. Nie mam sił hałasować");
