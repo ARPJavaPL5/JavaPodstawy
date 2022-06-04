@@ -14,40 +14,40 @@ public class Lion {
     }
 
     // HungerException
-    public void makeNoise() {
+    public void makeNoise() throws AnimalHungerException {
         if (hunger > 8) {
-            System.out.println("Jestem głodny. Nie mam sił hałasować");
-            return;
+            throw new AnimalHungerException(
+                    "Jestem głodny. Nie mam sił hałasować");
         }
 
         System.out.println("Roarrr");
         hunger++;
     }
 
-    public void eat() {
+    public void eat() throws AnimalHungerException {
         if (hunger == 0) {
-            System.out.println("Jestem najedzony. Nie mam ochoty nic jeść");
-            return;
+            throw new AnimalHungerException(
+                    "Jestem najedzony. Nie mam ochoty nic jeść");
         }
 
         System.out.println("Antylopa na obiad :)");
         hunger--;
     }
 
-    public void sleep() {
+    public void sleep() throws AnimalHungerException {
         if (hunger >= 8) {
-            System.out.println("Nie zasnę z pustym żołądkiem. Muszę coś zjeść");
-            return;
+            throw new AnimalHungerException(
+                    "Nie zasnę z pustym żołądkiem. Muszę coś zjeść");
         }
 
         System.out.println("Idę spać...");
         hunger = 10;
     }
 
-    public void travel(double x, double y) {
+    public void travel(double x, double y) throws AnimalTravelException {
         if (!territory.canTravel(x, y)) {
-            System.out.println("Nie mogę tego zrobić. To nie moje terytorium");
-            return;
+            throw new AnimalTravelException(
+                    "Nie mogę tego zrobić. To nie moje terytorium");
         }
 
         System.out.printf("Idę z punktu (%.2f, %.2f) do punktu (%.2f, %.2f)\n",

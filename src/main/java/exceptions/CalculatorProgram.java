@@ -18,7 +18,14 @@ public class CalculatorProgram {
             try {
                 performOperation(parts);
             } catch (InvalidStatementException e) {
+                // dla użytkownika końcowego to jest ok
                 System.out.println(e.getMessage());
+
+                // dla zespołu programistów
+                // 1. message
+                // 2. inputString
+                // 3. cause (jeśli występuje)
+                // 4. stos wywołań
             }
         }
     }

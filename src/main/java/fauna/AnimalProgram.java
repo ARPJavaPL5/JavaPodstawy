@@ -19,13 +19,25 @@ public class AnimalProgram {
 
             switch (option) {
                 case "N":
-                    lion.makeNoise();
+                    try {
+                        lion.makeNoise();
+                    } catch (AnimalHungerException e) {
+                        System.out.println("Error: " + e.getMessage());
+                    }
                     break;
                 case "S":
-                    lion.sleep();
+                    try {
+                        lion.sleep();
+                    } catch (AnimalHungerException e) {
+                        System.out.println("Error: " + e.getMessage());
+                    }
                     break;
                 case "E":
-                    lion.eat();
+                    try {
+                        lion.eat();
+                    } catch (AnimalHungerException e) {
+                        System.out.println("Error: " + e.getMessage());
+                    }
                     break;
                 case "T":
                     System.out.println("Podaj współrzędną X:");
@@ -34,7 +46,11 @@ public class AnimalProgram {
                     System.out.println("Podaj współrzędną Y:");
                     double y = scanner.nextDouble();
                     scanner.nextLine();
-                    lion.travel(x, y);
+                    try {
+                        lion.travel(x, y);
+                    } catch (AnimalTravelException e) {
+                        System.out.println("Error: " + e.getMessage());
+                    }
                     break;
                 case "Q":
                     System.out.println("KONIEC");

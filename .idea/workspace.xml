@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/filename" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/AutoCloseableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/CalculatorProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/CheckedExceptionProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/ExceptionProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/InvalidStatementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/UncheckedExceptionProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/bankaccount/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/bankaccount/AccountTransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/bankaccount/MobileBankProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/bankaccount/NegativeTransferAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalHungerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalTravelException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoWhileLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ForLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IfCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SumAsMultiply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WhileLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/CalculatorProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/CalculatorProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fauna/AnimalProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fauna/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fauna/Lion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +66,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorProgram (1)">
-    <configuration name="CalculatorProgram (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.CalculatorProgram" />
+  <component name="RunManager" selected="Application.MobileBankProgram">
+    <configuration name="AnimalProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fauna.AnimalProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="fauna.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zadania.CalculatorProgram" />
+    <configuration name="CalculatorProgram (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.CalculatorProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zadania.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ExceptionProgram" />
+    <configuration name="MobileBankProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.bankaccount.MobileBankProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="exceptions.bankaccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MobileBankProgram" />
+        <item itemvalue="Application.AnimalProgram" />
         <item itemvalue="Application.CalculatorProgram (1)" />
         <item itemvalue="Application.CheckedExceptionProgram" />
         <item itemvalue="Application.UncheckedExceptionProgram" />
-        <item itemvalue="Application.ExceptionProgram" />
-        <item itemvalue="Application.CalculatorProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +268,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/exceptions/CalculatorProgram.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
